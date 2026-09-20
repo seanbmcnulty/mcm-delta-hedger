@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "MCM Delta Hedger",
+      "hasCanvas": false,
+      "bodyTextLen": 1041,
+      "bodyTextHash": "f80767e50bb32bb1e80feb5a0b0315a95b727ab09db02e09d12220792bffc044",
+      "bodyTextPrefix": "MCM Delta Hedger paper lite Stopped 10s Maker-only Auto DDH on D",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "MCM Delta Hedger",
+      "hasCanvas": false,
+      "bodyTextLen": 1039,
+      "bodyTextHash": "4545710c9a81945436014f6017eb1af936344bab8188947e7e03dcd4851a013b",
+      "bodyTextPrefix": "MCM Delta Hedger paper lite Stopped 10s Maker-only Auto DDH on D",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (1680 -> 1041 chars, hash mismatch)",
+    "mobile: body text changed (1635 -> 1039 chars, hash mismatch)"
+  ]
+}
